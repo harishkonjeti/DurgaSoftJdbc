@@ -18,5 +18,12 @@ public class C5_ImmutableObjects {
         System.out.println(sb1);
         System.out.println(sb2);
         System.out.println(sb3);
+
+        System.out.println(s1.hashCode());
+        System.out.println(s2.hashCode());
+        System.out.println(s3.hashCode());
+        System.out.println(sb1.hashCode());
+        System.out.println(sb2.hashCode());
+        System.out.println(sb3.hashCode());
     }
 }

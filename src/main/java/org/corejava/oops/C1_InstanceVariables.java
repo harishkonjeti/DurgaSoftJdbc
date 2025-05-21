@@ -1,10 +1,11 @@
 package org.corejava.oops;
 
 public class C1_InstanceVariables {
-    String id;
+    char id;
     String name;
     int age;
     float salary;
+    long mobileNumber=123;
 
     void displayInstanceVariablesDefaultValues(){
         System.out.println("Default values of Instance variables: ");
@@ -12,6 +13,7 @@ public class C1_InstanceVariables {
         System.out.println("name : " + name);
         System.out.println("age : " + age);
         System.out.println("salary : " + salary);
+        System.out.println("mobileNumber : " + mobileNumber);
     }
 
     public static void main(String[] args) {

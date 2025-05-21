@@ -1,8 +1,10 @@
 package org.core.java.collections;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Person {
+public class Person implements Serializable {
+
         private String id;
         private String name;
         private String age;

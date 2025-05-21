@@ -18,7 +18,8 @@ public class Arrays {
             System.out.println(val);
         }
 
-        Scanner scanner = new Scanner(System.in);
-        scanner.nextLine();
+        int[][] twoDimArray = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        System.out.println(twoDimArray[0][2]);
+        System.out.println(twoDimArray[1].length);
     }
 }

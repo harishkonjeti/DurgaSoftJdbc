@@ -21,6 +21,9 @@ public class C10_EnumTest {
         System.out.println(UserStatus.EMPTY);
         System.out.println(UserStatus.AVAILABLE.name());
         System.out.println(UserStatus.values());
+        for (UserStatus value : UserStatus.values()) {
+            System.out.println("value: " + value);
+        }
         System.out.println(UserStatus.valueOf("IDLE"));
         System.out.println(UserStatus.BUSY.getValue());
     }
