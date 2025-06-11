@@ -14,7 +14,7 @@ public class Udemy1 {
         Object obj = list.get(0);
         System.out.println(obj);
 
-        //casting
+        //type casting
         int i = (int)list.get(0);
         System.out.println(i);
 

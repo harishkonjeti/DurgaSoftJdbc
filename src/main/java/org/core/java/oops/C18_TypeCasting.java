@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 public class C18_TypeCasting {
     public static void main(String[] args) {

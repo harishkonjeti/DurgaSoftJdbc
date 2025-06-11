@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 class Concrete_class{
     void concreteMethod(){
         System.out.println("Concrete method");

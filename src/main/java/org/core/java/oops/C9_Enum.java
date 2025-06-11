@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 enum Enum {
     AVAILABLE, BUSY, IDLE

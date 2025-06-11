@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 enum UserStatus{
     AVAILABLE("available"),BUSY("busy"),IDLE("idle"), EMPTY;

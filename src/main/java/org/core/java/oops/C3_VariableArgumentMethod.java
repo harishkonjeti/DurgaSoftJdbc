@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 public class C3_VariableArgumentMethod {
     //var arg should be the last arguement

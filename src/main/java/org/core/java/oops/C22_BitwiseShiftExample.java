@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 import org.core.java.collections.ArraylistClass;
 

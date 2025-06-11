@@ -13,6 +13,7 @@ public class Udemy2 {
         List strList = list;
         strList.add("abc");
         System.out.println(strList);
+        System.out.println(list);
 
         addIncorrectData(list);
         System.out.println(list);
@@ -30,6 +31,11 @@ public class Udemy2 {
         //type erasure
         //for arrays it is not possible
         list.add("edf");
+    }
+
+    private static void addIncorrectStringData(Object[] intArray) {
+//        arrays won't allow type erasure
+        intArray[0] = "abc";
     }
 
     private static <T> void printList(List<T> list) {

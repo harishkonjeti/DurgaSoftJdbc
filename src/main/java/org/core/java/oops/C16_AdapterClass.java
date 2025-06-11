@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 interface Manymethods{
     void m1();
     void m2();

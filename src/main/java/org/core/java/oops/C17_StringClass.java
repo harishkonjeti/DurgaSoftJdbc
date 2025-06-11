@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 public class C17_StringClass {
     public static void main(String[] args) {

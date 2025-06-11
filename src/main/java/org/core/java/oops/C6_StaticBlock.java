@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 class A{
     int z = staticMethod();
     static {
@@ -34,7 +34,7 @@ public class C6_StaticBlock {
         A a = new A();
         //without creating object
         //loads A class byte code to memory without creating object
-        Class c = Class.forName("org.corejava.oops.A");
+        Class c = Class.forName("org.core.java.oops.A");
         Object o = c.newInstance();
         A a1 = (A) o;
 

@@ -1,4 +1,4 @@
-package org.corejava.oops;
+package org.core.java.oops;
 
 interface Service {
     int interface_var = 12;

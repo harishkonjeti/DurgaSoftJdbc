@@ -6,7 +6,8 @@ public class Zoo {
         lionCage.setAnimal1(new Lion());
         lionCage.setAnimal2(new Lion());
 
-//        Cage<Monkey> monkeyCage = new Cage<>(new Monkey(), new Lion());
-        Cage<Monkey> monkeyCage = new Cage<Monkey>(new Monkey(), new Monkey());
+        //for constructor we have use type parameter along with constructor
+        Cage<Monkey> monkeyCage1 = new Cage(new Monkey(), new Lion());
+//        Cage<Monkey> monkeyCage2 = new Cage<>(new Monkey(), new Lion());
     }
 }
