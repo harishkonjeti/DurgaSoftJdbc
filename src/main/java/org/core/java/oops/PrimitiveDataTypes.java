@@ -1,10 +1,10 @@
 package org.core.java.oops;
-class A<T>{
+class A1<T>{
     T t;
-    A(){
+    A1(){
 
     }
-    A(T t){
+    A1(T t){
         this.t = t;
     }
     public T showDataType(T t){
@@ -14,7 +14,7 @@ class A<T>{
 }
 public class PrimitiveDataTypes {
     public static void main(String[] args) {
-        A a = new A();
+        A1 a = new A1();
         a.showDataType(1);
         a.showDataType(1.0);
         a.showDataType(1l);
