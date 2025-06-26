@@ -5,7 +5,7 @@ import java.util.List;
 public class C4_Objects {
     public static void main(String[] args) {
         C4_Objects obj = new C4_Objects();
-        //interger value
+        //integer value
         System.out.println("hash code of object : " + obj.hashCode());
         //hexa decimal of hashcode
         System.out.println("obj : " + obj);

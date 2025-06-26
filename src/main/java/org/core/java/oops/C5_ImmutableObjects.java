@@ -8,6 +8,7 @@ public class C5_ImmutableObjects {
         String s3 = s2.concat(" movie");
 
         //mutable objects
+        //String buffer is thread safe
         StringBuffer sb1 = new StringBuffer("harry");
         StringBuffer sb2 = sb1.append(" potter");
         StringBuffer sb3 = sb2.append(" movie");
